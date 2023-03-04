@@ -124,3 +124,62 @@ header, .navbar{background-color: #353d41;}
 
 /*Time*/
 .card-body{text-align: center;}
+
+/*Trabalhe conosco*/
+#aplly-area{height: 500px;}
+#aplly-area .container-fluid, #aplly-area .row{height: 100%;}
+#aplly-area .aplly-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+#company-img{
+    background-image: url("../img/empresa.jpg");
+    background-size: cover;
+    height: 100%;
+}
+#pattern-img h4, #pattern-img p{color: #fff;}
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#pattern-img p{margin-bottom: 20px;}
+#aplly-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin:auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+#aplly-btn:hover{
+    border-color: #65daf9;
+    background-color: #65daf9;
+}
+
+/*Portfolio*/
+.project-box{margin-bottom: 30px;}
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#portfolio-area, .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+#portfolio-area, .filter-btn.active, #portfolio-area, .filter-btn:hover{
+    color: #fff;
+    background-color: #65daf9;
+    border-color: #65daf9;
+
+}
+
