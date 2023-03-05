@@ -1,7 +1,7 @@
 /*Gerais*/
 body{font-family: 'Roboto', sans-serif;}
 .row{margin: 0;}
-.container{padding: 70px 0; }
+.container{padding: 100px 0; }
 p,li{
     color: #444;
     font-size: 14px;
@@ -24,7 +24,7 @@ header, .navbar{background-color: #353d41;}
 
 /*Slider*/
 .container-fluid{padding: 0;}
-#mainSlider .carousel-inner, #mainSlider .carousel-item{height: 90vh;}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{height: 95vh;}
 #mainSlider .carousel-caption{top: 30%;}
 #mainSlider .carousel-caption h2{
     font-size: 50px;
