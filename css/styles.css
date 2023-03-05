@@ -347,6 +347,17 @@ header, .navbar{background-color: #353d41;}
     #call-area p, #call-area #call-btn{font-size: 16px;}
 
 }
+@media screen and (min-width:769px) and (max-width:1920px){
+/*geral*/
+.container{
+    padding: 20px 0;
+}
+
+/*slider*/
+.container-fluid{padding: 0;}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{height: 60vh;}
+#mainSlider .carousel-caption{top: 30%;}
+}
 
 @media screen and (max-width:425px){
     /*slider*/
